@@ -29,6 +29,7 @@ const PollQuestion = (props) => {
       setQuestion(listQuestion[question_id]);
       return;
     }
+    navigate("/404");
   }, [listQuestion, question_id, navigate]);
 
   useEffect(() => {
