@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Component calls login on form submit and login success 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div />
+  </body>,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Login Component displays error message when login fails 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="login-container"
+      >
+        <div
+          class="login-card"
+        >
+          <h2>
+            Employee Polls
+          </h2>
+          <img
+            alt="Employee Polls"
+            class="login-image"
+            src="login.PNG"
+          />
+          <form>
+            <div
+              data-testid="err_msg"
+            >
+              <p
+                class="error-message"
+              >
+                Invalid username or password
+              </p>
+            </div>
+            <div
+              class="input-group"
+            >
+              <label
+                data-testid="user_label"
+                for="username"
+              >
+                User
+              </label>
+              <input
+                data-testid="user_input"
+                id="username"
+                name="username"
+                placeholder="User"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="input-group"
+            >
+              <label
+                data-testid="password_label"
+                for="password"
+              >
+                Password
+              </label>
+              <input
+                data-testid="password_input"
+                id="password"
+                name="password"
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+            </div>
+            <button
+              data-testid="btn_submit"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="login-container"
+    >
+      <div
+        class="login-card"
+      >
+        <h2>
+          Employee Polls
+        </h2>
+        <img
+          alt="Employee Polls"
+          class="login-image"
+          src="login.PNG"
+        />
+        <form>
+          <div
+            data-testid="err_msg"
+          >
+            <p
+              class="error-message"
+            >
+              Invalid username or password
+            </p>
+          </div>
+          <div
+            class="input-group"
+          >
+            <label
+              data-testid="user_label"
+              for="username"
+            >
+              User
+            </label>
+            <input
+              data-testid="user_input"
+              id="username"
+              name="username"
+              placeholder="User"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="input-group"
+          >
+            <label
+              data-testid="password_label"
+              for="password"
+            >
+              Password
+            </label>
+            <input
+              data-testid="password_input"
+              id="password"
+              name="password"
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+          </div>
+          <button
+            data-testid="btn_submit"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Login Component renders login form 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="login-container"
+      >
+        <div
+          class="login-card"
+        >
+          <h2>
+            Employee Polls
+          </h2>
+          <img
+            alt="Employee Polls"
+            class="login-image"
+            src="login.PNG"
+          />
+          <form>
+            <div
+              data-testid="err_msg"
+            />
+            <div
+              class="input-group"
+            >
+              <label
+                data-testid="user_label"
+                for="username"
+              >
+                User
+              </label>
+              <input
+                data-testid="user_input"
+                id="username"
+                name="username"
+                placeholder="User"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="input-group"
+            >
+              <label
+                data-testid="password_label"
+                for="password"
+              >
+                Password
+              </label>
+              <input
+                data-testid="password_input"
+                id="password"
+                name="password"
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+            </div>
+            <button
+              data-testid="btn_submit"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="login-container"
+    >
+      <div
+        class="login-card"
+      >
+        <h2>
+          Employee Polls
+        </h2>
+        <img
+          alt="Employee Polls"
+          class="login-image"
+          src="login.PNG"
+        />
+        <form>
+          <div
+            data-testid="err_msg"
+          />
+          <div
+            class="input-group"
+          >
+            <label
+              data-testid="user_label"
+              for="username"
+            >
+              User
+            </label>
+            <input
+              data-testid="user_input"
+              id="username"
+              name="username"
+              placeholder="User"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="input-group"
+          >
+            <label
+              data-testid="password_label"
+              for="password"
+            >
+              Password
+            </label>
+            <input
+              data-testid="password_input"
+              id="password"
+              name="password"
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+          </div>
+          <button
+            data-testid="btn_submit"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

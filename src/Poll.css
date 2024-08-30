@@ -1,0 +1,53 @@
+.poll-container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.avatar {
+  margin: 20px 0;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.options {
+  display: flexbox;
+  justify-content: space-between;
+}
+
+.option {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.option {
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #99ffff;
+}

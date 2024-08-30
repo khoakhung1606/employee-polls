@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.nav-item :link {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  position: relative;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 30px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-item :hover,
+.nav-item :active,
+.nav-item :checked,
+.nav-item :after,
+.nav-item :focus {
+  border-bottom: 2px solid #007bff;
+  color: #007bff;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.logout {
+  margin-top: 30px;
+  font-size: 12px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+}
+
+.img-user {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}

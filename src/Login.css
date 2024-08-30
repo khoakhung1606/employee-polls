@@ -1,0 +1,62 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.login-card {
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-image {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.error-message {
+  color: red; /* Màu chữ đỏ để hiển thị lỗi */
+  background-color: #f8d7da; /* Màu nền nhạt cho thông báo lỗi */
+  border: 1px solid #f5c6cb; /* Viền mỏng cho khung thông báo lỗi */
+  padding: 10px; /* Khoảng cách bên trong */
+  border-radius: 5px; /* Bo góc mềm mại */
+  font-size: 14px; /* Cỡ chữ */
+  margin-top: 10px; /* Khoảng cách phía trên */
+}
